@@ -5,7 +5,7 @@ from utils import get_logger
 import logging
 import time
 import os
-from data.data_loder import calculate_parements_stock
+from data.data_loader import calculate_parements_stock
 
 if __name__ == "__main__":
     cfg = load_yaml('config.yaml')
